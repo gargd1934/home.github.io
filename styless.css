@@ -1,5 +1,6 @@
 body{
 	padding: 70px 0px 0px 0px;
+
 }
 
 .navbar-dark{
@@ -140,24 +141,97 @@ left: 0px;
 
 @media (min-width: 1281px)   {
   
-  .nav-item{font-size: 22px;}
-  .nav-link{margin:auto;}
-  .logo{height:35px; width:180px;}
+  .nav-item{font-size: 20px;}
+  
+  .logo{height:30px; width:160px; margin-left: -50px;}
   .example{
-font-size: auto; 
+font-size: 70px; 
 font-family: Ubuntu; 
 margin-left: 30px;
 margin-top: 100px;}
 
 
 .abc{
-	font-size: auto; 
+	font-size: 25px; 
 	color: black; 
 	margin-left: 35px;
 }
-  .c{margin-left: 750px; font-size:22px;}
   .link{ margin-left:0px;}
-  .imgs{width: 100%; margin-top: 80px; height: 100%;}
+  .imgs{width: 100%; margin-top: 80px; height: 90%;}
+  .examples{font-size: 70px;margin-top: 50px;}
+  .b{
+	width: 100%; 
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.reception{
+	width: 300px; margin-left: 50px;margin-top: 50px;
+}
+
+.heading{
+	font-size: 70px; 
+	font-family: Ubuntu;
+	margin-left: 80px;
+	margin-top: 50px;
+}
+
+.p{
+	font-size: 25px; 
+	color: black; 
+	margin-left: 80px;
+}
+
+.responsive{
+	width: 100px;
+	height: 100px;
+}
+
+.ac{
+	font-size: 50px;
+}
+
+.ab{
+	font-size: 18px;
+	text-indent: 3px;
+	margin-left: -30px;
+	margin-top: -10px;
+}
+
+.k{
+	margin-left:-60px;
+}
+
+.l{
+	margin-left: 60px;
+}
+
+.m{
+	margin-left:-60px;
+}
+
+.n{
+	margin-left: 60px;
+}
+
+.o{
+	margin-left:-60px;
+}
+
+.foot{
+	margin-bottom:10px; 
+	font-size: 22px;
+}
+
+.link{
+	color: black;
+}
+
+.fp{
+	font-size: 18px;
+}
+
+  .c{margin-left: 750px; font-size:22px;}
   .fp{font-size: 22px;}
 }
 
@@ -167,24 +241,33 @@ margin-top: 100px;}
 */
 
 @media (min-width: 1024px) and (max-width: 1280px) {
-  
+  .nav-link{font-size: 18px;}
   .imgs{
-margin-top: 80px; 
+margin-top: 50px; 
 width: 100%; 
-height: 80%;
+height: 100%;
 }
   .abc{
 	font-size: 24px; 
 	color: black; 
 	margin-left: 30px;
+
 }
-  .reception{width: 270px;}
+.examples{font-size: 70px;margin-top: 60px;}
+.b{
+	width: 100%; 
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+  .reception{width: 270px;margin-left: 60px;}
   .p{
-	font-size: 19px;color: black; margin-left: 80px;}
-	.example{font-size: 50px; font-family: Ubuntu; margin-left: 30px;margin-top: 100px;}
+	font-size: 25px;color: black; margin-left: 80px;}
+	.example{font-size: 70px; font-family: Ubuntu; margin-left: 30px;margin-top: 50px;}
 .responsive{
-	width: 80px;
-	height: 80px;
+	width: 100px;
+	height: 100px;
 }
 
 .ac{
@@ -192,29 +275,29 @@ height: 80%;
 }
 
 .ab{
-	font-size: 15px;
+	font-size: 20px;
 	text-indent: 0px;
 	margin-top: 2px;
 }
 .k{
-	margin-left:-60px;
+	margin-left:-70px;
 }
 
 .l{
-	margin-left: 50px;
+	margin-left: 40px;
 }
 
 .m{
-	margin-left:-50px;
+	margin-left:-60px;
 	margin-top: 10px;
 }
 
 .n{
-	margin-left: 50px;
+	margin-left: 40px;
 }
 
 .o{
-	margin-left:-55px;
+	margin-left:-70px;
 }
 
 
@@ -235,10 +318,11 @@ left: 0px;
 
 .link{
 	color: black;
+	font-size: 20px;
 }
 
 .fp{
-	font-size: 18px;
+	font-size: 20px;
 }
 .c{
 	margin-left: 640px; font-size:15px;
@@ -252,42 +336,46 @@ left: 0px;
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
+  .nav-link{font-size: 12px;}
+  .logo{
+  	width: 100px;
+  	height: 25px;
+  }
   .imgs{
-margin-top: 80px; 
+margin-top: 50px; 
 width: 90%; 
-height: 80%;
+height: 70%;
 margin-left: 50px;
 }
   .abc{
-	font-size: 13px; 
+	font-size: 14px; 
 	color: black; 
-	margin-left: 30px;
+	margin-left: 20px;
 }
 
 .btn{
 	background-color: #F0F000; 
 	color: black;
 	border-color: #F0F000;
-	margin-left: 30px;
+	margin-left: 25px;
 	width: 40%;
 	font-size: 12px;
 }
-  .reception{width: 230px;}
+  .reception{width: 200px;margin-left: 40px;}
   .p{
-	font-size: 15px;color: black; margin-left: 80px;}
-	.example{font-size: 40px; font-family: Ubuntu; margin-left: 30px;margin-top: 100px;}
+	font-size: 15px;color: black; margin-left: 50px;}
+	.example{font-size: 50px; font-family: Ubuntu; margin-left: 30px;margin-top: 50px;}
 
 .heading{
-	font-size: 40px; 
+	font-size: 50px; 
 	font-family: Ubuntu;
-	margin-left: 80px;
+	margin-left: 50px;
 }
 .bt{
 	background-color: #F0F000;
 	color: black;
 	border-color: black;
-	margin-left: 80px;
+	margin-left: 50px;
 	font-size: 12px;
 	width: 20%;
 }
@@ -334,7 +422,7 @@ left: 0px;
    width: 100%;
    background-color: #F0F000;
    color: black;
-   padding:30px;
+   padding:25px;
    
 }
 .foot{
@@ -350,7 +438,7 @@ left: 0px;
 	font-size: 18px;
 }
 .c{
-	margin-left: 450px; font-size:12px;
+	margin-left: 460px; font-size:12px;
 }
 
 }
@@ -362,78 +450,82 @@ left: 0px;
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-   .imgs{
-margin-top: 80px; 
+  .nav-link{font-size: 12px;}
+  .logo{
+  	width: 100px;
+  	height: 25px;
+  }
+  .imgs{
+margin-top: 50px; 
 width: 90%; 
-height: 80%;
-margin-left: 60px;
+height: 70%;
+margin-left: 50px;
 }
   .abc{
-	font-size: 18px; 
+	font-size: 14px; 
 	color: black; 
-	margin-left: 30px;
+	margin-left: 20px;
 }
 
 .btn{
 	background-color: #F0F000; 
 	color: black;
 	border-color: #F0F000;
-	margin-left: 30px;
+	margin-left: 25px;
 	width: 40%;
 	font-size: 12px;
 }
-  .reception{width: 230px; margin-left: 30px;}
+  .reception{width: 200px;margin-left: 40px;}
   .p{
-	font-size: 18px;color: black; margin-left: 80px;}
-	.example{font-size: 40px; font-family: Ubuntu; margin-left: 30px;margin-top: 100px;}
+	font-size: 15px;color: black; margin-left: 50px;}
+	.example{font-size: 50px; font-family: Ubuntu; margin-left: 30px;margin-top: 50px;}
 
 .heading{
-	font-size: 45px; 
+	font-size: 50px; 
 	font-family: Ubuntu;
-	margin-left: 80px;
+	margin-left: 50px;
 }
 .bt{
 	background-color: #F0F000;
 	color: black;
 	border-color: black;
-	margin-left: 80px;
+	margin-left: 50px;
 	font-size: 12px;
 	width: 20%;
 }
 .responsive{
-	width: 80px;
+	width: 60px;
 	height: 80px;
 }
 
 .ac{
-	font-size: 28px;
+	font-size: 25px;
 }
 
 .ab{
-	font-size: 14px;
+	font-size: 12px;
 	text-indent: 0px;
-	margin-top: -7px;
+	margin-top: 2px;
 }
 .k{
-	margin-left:-60px;
+	margin-left:-40px;
 }
 
 .l{
-	margin-left: 20px;
+	margin-left: 40px;
 }
 
 .m{
-	margin-left:-60px;
+	margin-left:-40px;
 	margin-top: 5px;
 }
 
 .n{
-	margin-left: 20px;
+	margin-left: 40px;
 }
 
 .o{
-	margin-left:-60px;
+	margin-left:-45px;
 }
 
 
@@ -444,7 +536,7 @@ left: 0px;
    width: 100%;
    background-color: #F0F000;
    color: black;
-   padding:30px;
+   padding:25px;
    
 }
 .foot{
@@ -457,14 +549,14 @@ left: 0px;
 }
 
 .fp{
-	font-size: 20px;
+	font-size: 18px;
 }
 .c{
-	margin-left: 600px; font-size:14px;
+	margin-left: 460px; font-size:12px;
 }
 
-  
 }
+  
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -472,22 +564,22 @@ left: 0px;
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
- 
+ .nav-link{font-size: 12px;}
   .logo{
-	height:30px; 
-	width:120px;
-	margin-top: -110px;
+	height:25px; 
+	width:100px;
+	margin-top: -100px;
 
 }
-.nav-item{font-size: 12px;margin-left: -50px;}
   .imgs{
 margin-top: 120px; 
-width: 95%; 
-height: 65%;
-margin-left: 20px;
+width: 100%; 
+height: 90%;
+margin-left: 15px;
+margin-top: 50px;
 }
   .abc{
-	font-size: 8.5px; 
+	font-size: 14px; 
 	color: black; 
 	margin-left: 10px;
 }
@@ -497,27 +589,27 @@ margin-left: 20px;
 	color: black;
 	border-color: #F0F000;
 	margin-left: 10px;
-	width: 35%;
-	font-size: 5px;
+	width: 40%;
+	font-size: 6px;
 }
 
 .b{
-	width: 80%; 
+	width: 90%; 
 	height: 80%;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top: 0px;
+	margin-top: 10px;
 
 }
-.examples{font-size: 30px; font-family: Ubuntu; margin-left: 30px;margin-top: 10px;}
+.examples{font-size: 40px; font-family: Ubuntu; margin-left: 30px;margin-top:10px;}
 
-  .reception{width: 130px;margin-left: 25px;}
+  .reception{width: 120px;margin-left: 40px;}
   .p{
 	font-size: 12px;color: black; margin-left: 25px;}
-	.example{font-size: 30px; font-family: Ubuntu; margin-left: 10px;margin-top: 140px;}
+	.example{font-size: 40px; font-family: Ubuntu; margin-left: 10px;margin-top: 60px;}
 
 .heading{
-	font-size: 25px; 
+	font-size: 30px; 
 	font-family: Ubuntu;
 	margin-left: 30px;
 }
@@ -532,10 +624,12 @@ margin-left: 20px;
 .responsive{
 	width: 40px;
 	height: 60px;
+	margin-top: -10px;
 }
 
 .ac{
 	font-size: 20px;
+	margin-top: -10px;
 }
 
 .ab{
@@ -567,7 +661,7 @@ margin-left: 20px;
 
   .footer {
    position:relative ;   
-left: 0px;
+top: 0px;
    bottom: 0;
    width: 100%;
    background-color: #F0F000;
@@ -601,74 +695,75 @@ left: 0px;
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
+  .nav-link{font-size: 12px;}
   
   .logo{
 	height:20px; 
-	width:80px;
+	width:60px;
 	margin-top: -100px;
-	margin-left: -50px;
+	margin-left: -60px;
 
 }
 .nav-item{font-size: 8px;}
   .imgs{
-margin-top: 120px; 
-width: 95%; 
+margin-top: 50px; 
+width: 100%; 
 height: 60%;
-margin-left: 20px;
+margin-left: 10px;
 }
   .abc{
-	font-size: 5px; 
+	font-size: 9px; 
 	color: black; 
-	margin-left: 3px;
+	margin-left: 0px;
 }
 
 .btn{
 	background-color: #F0F000; 
 	color: black;
 	border-color: #F0F000;
-	margin-left: 3px;
+	margin-left: 0px;
 	width: 45%;
 	font-size: 4px;
 }
 
 .b{
-	width: 80%; 
-	height: 80%;
+	width: 100%; 
+	height: 70%;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top: 0px;
+	margin-top: 10px;
 
 }
-.examples{font-size: 20px; font-family: Ubuntu; margin-left: 30px;margin-top: -15px;}
+.examples{font-size: 30px; font-family: Ubuntu; margin-left: 30px;margin-top: -15px;}
 
-  .reception{width: 60px;margin-left: 25px;}
+  .reception{width: 60px;margin-left: 30px;margin-top: -10px;}
   .p{
-	font-size: 7px;color: black; margin-left: 10px;}
-	.example{font-size: 20px; font-family: Ubuntu; margin-left: 3px;margin-top: 140px;}
+	font-size: 8px;color: black; margin-left: 10px;}
+	.example{font-size: 30px; font-family: Ubuntu; margin-left: 3px;margin-top: 60px;}
 
 .heading{
 	font-size: 20px; 
 	font-family: Ubuntu;
 	margin-left: 10px;
+	margin-top: -10px;
 }
 .bt{
 	background-color: #F0F000;
 	color: black;
 	border-color: black;
 	margin-left: 10px;
-	font-size: 5px;
+	font-size: 4px;
 	width: 25%;
 }
 .responsive{
 	width: 20px;
 	height: 40px;
-	margin-top: -90px;
+	margin-top: -100px;
 }
 
 .ac{
 	font-size: 12px;
-	margin-top: -50px;
+	margin-top: -55px;
 }
 
 .ab{

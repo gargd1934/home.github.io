@@ -1,0 +1,102 @@
+
+
+body {
+  font-family: Arial;
+  margin: 0 auto; /* Center website */
+  max-width: 800px; /* Max width */
+  padding: 10px;
+}
+
+.heading {
+  font-size: 25px;
+  
+}
+
+a.phoneMe {
+  position: relative;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin-left: 0%;
+  height: 70px;
+  width: 80px;
+  background: #228B22;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 100%;
+  margin-top:-20px;
+}
+
+
+
+/* Place text to the right */
+.right {
+  text-align: right;
+  margin-right: -50px;
+}
+
+
+input[type=text] {
+  width: 250px;
+  box-sizing: border-box;
+  border: 2px solid #3498DB;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #F4F6F7;
+  background-image: url('icons8-search-24.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+/* The bar container */
+.bar-container {
+  width: 32%;
+  background-color:#A6ACAF;
+  
+  color: #717D7E;
+  margin-top: 5px;
+}
+
+.bar-container1 {
+  width: 32%;
+  background-color:#A6ACAF;
+  margin-left:350px; 
+  color: #E59866  ;
+  margin-top:  5px;
+}
+
+/* Individual bars */
+.bar-10 {width: 60%; height: 5px; background-color: #669900;}
+.bar-9 {width: 60%; height: 5px; background-color: #669900;}
+.bar-8 {width: 70%; height: 5px; background-color: #239B56;}
+.bar-7 {width: 68%; height: 5px; background-color: #669900;}
+.bar-6 {width: 70%; height: 5px; background-color: #239B56;}
+.bar-5 {width: 50%; height: 5px; background-color: #ff9900;}
+.bar-4 {width: 40%; height: 5px; background-color: #cc3300;}
+.bar-3 {width: 60%; height: 5px; background-color: #669900;}
+.bar-2 {width: 70%; height: 5px; background-color: #239B56;}
+.bar-1 {width: 85%; height: 5px; background-color: #239B56;}
+
+  
+

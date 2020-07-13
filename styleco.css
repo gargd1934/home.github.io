@@ -1,0 +1,254 @@
+body{
+	padding: 150px 0px 0px 0px;
+}
+.navbar-dark{
+	background-color: #696969;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("AAA.jpg");
+width: 800px;
+  min-height: 650px;
+
+  /* Center and scale the image nicely */
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: 500px;
+
+}
+
+.x{
+  font-size: 70px;
+  font-family: Ubuntu;
+  margin-left:-430px;
+}
+
+.y{
+  width: 70%; height:500px;padding: 5%;border: 4px solid #F0F000;
+  background-color: #FFFFFF; margin-left: -500px;
+  margin-top: 20px;
+}
+
+.name{margin-left:-10px;}
+
+.form-control{margin: 0px 0px 2px -10px;}
+
+.name1{margin-left:10px;}
+
+.w{margin: 0px 0px 2px 10px;}
+
+.name2{margin-left:-10px;}
+.z{margin: 0px 0px 2px -10px; height: 100px;}
+.btn{background-color: #F0F000; color: black; padding:5px; border-color: #F0F000;}
+
+.q{color: grey;}
+.get{font-size: 60px; font-family: Ubuntu; margin-top: 100px; margin-left: 120px;}
+
+.gets{width: 100%; height:400px;padding: 5%;border: 4px solid #F0F000;background-color: #FFFFFF; margin-top: 30px;}
+.i1{font-size: 25px; color: #000000;}
+input[type=text], input[type=email], input[type=name], input[type=address]{
+  
+  padding: 5px;
+ 
+  border: 2px solid gray;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=email]:focus, input[type=name]:focus, input[type=address]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+  
+  .imgs{
+    margin-top: 100px;
+    height:400px;
+    width:100%;
+  }
+
+  .icon{color: blue;}
+
+  .follow{font-size: 60px; font-family: Ubuntu; margin-top: 100px; margin-left: 25px;}
+
+  .border1{width: 150%; height:250px;padding: 5%;border: 4px solid #F0F000;background-color: #FFFFFF; margin-top: 30px;margin-left: 20px;}
+       
+.heading{margin-bottom:10px; font-size: 22px;}
+
+.para{font-size: 18px;}
+.xy{margin-left: 950px; font-size:15px;}
+.link{color:black;}
+       .footer {
+   position:relative ;   
+left: 0px;
+   bottom: 0;
+   width: 100%;
+   background-color: #F0F000;
+   color: black;
+   padding:35px;
+   
+}
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+body{
+  padding: 150px 0px 0px 0px;
+}
+.navbar-dark{
+  background-color: #696969;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("AAA.jpg");
+width: 800px;
+  min-height: 650px;
+
+  /* Center and scale the image nicely */
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: 500px;
+
+}
+
+.x{
+  font-size: 70px;
+  font-family: Ubuntu;
+  margin-left:-430px;
+}
+
+.y{
+  width: 70%; height:500px;padding: 5%;border: 4px solid #F0F000;
+  background-color: #FFFFFF; margin-left: -500px;
+  margin-top: 20px;
+}
+
+.name{margin-left:-10px;}
+
+.form-control{margin: 0px 0px 2px -10px;}
+
+.name1{margin-left:10px;}
+
+.w{margin: 0px 0px 2px 10px;}
+
+.name2{margin-left:-10px;}
+.z{margin: 0px 0px 2px -10px; height: 100px;}
+.btn{background-color: #F0F000; color: black; padding:5px; border-color: #F0F000;}
+
+.q{color: grey;}
+.get{font-size: 60px; font-family: Ubuntu; margin-top: 100px; margin-left: 120px;}
+
+.gets{width: 100%; height:400px;padding: 5%;border: 4px solid #F0F000;background-color: #FFFFFF; margin-top: 30px;}
+.i1{font-size: 25px; color: #000000;}
+input[type=text], input[type=email], input[type=name], input[type=address]{
+  
+  padding: 5px;
+ 
+  border: 2px solid gray;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=email]:focus, input[type=name]:focus, input[type=address]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+  
+  .imgs{
+    margin-top: 100px;
+    height:400px;
+    width:100%;
+  }
+
+  .icon{color: blue;}
+
+  .follow{font-size: 60px; font-family: Ubuntu; margin-top: 100px; margin-left: 25px;}
+
+  .border1{width: 150%; height:250px;padding: 5%;border: 4px solid #F0F000;background-color: #FFFFFF; margin-top: 30px;margin-left: 20px;}
+       
+.heading{margin-bottom:10px; font-size: 22px;}
+
+.para{font-size: 18px;}
+.xy{margin-left: 950px; font-size:15px;}
+.link{color:black;}
+       .footer {
+   position:relative ;   
+left: 0px;
+   bottom: 0;
+   width: 100%;
+   background-color: #F0F000;
+   color: black;
+   padding:35px;
+   
+}
+
+  
+}
+
+
+

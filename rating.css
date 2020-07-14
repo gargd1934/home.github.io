@@ -77,14 +77,14 @@ input[type=text]:focus {
   color: #717D7E;
   margin-top: 5px;
 }
-
+/*
 .bar-container1 {
   width: 32%;
   background-color:#A6ACAF;
   margin-left:350px; 
   color: #E59866  ;
   margin-top:  5px;
-}
+}*/
 
 /* Individual bars */
 .bar-10 {width: 60%; height: 5px; background-color: #669900;}

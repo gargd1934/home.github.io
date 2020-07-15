@@ -36,9 +36,9 @@ a.phoneMe {
 
 /* Three column layout */
 .side {
-  float: left;
+  float: right;
   width: 100%;
-  margin-top:-20px;
+  margin-top:-30px;
 }
 
 
@@ -73,17 +73,17 @@ input[type=text]:focus {
 .bar-container {
   width: 32%;
   background-color:#A6ACAF;
+  margin-left:-230px; 
   
-  color: #717D7E;
-  margin-top: 5px;
+  margin-top: 22px;
 }
 
 .bar-container1 {
   width: 32%;
   background-color:#A6ACAF;
-  margin-left:350px; 
-  color: #E59866  ;
-  margin-top:  5px;
+  margin-left:310px; 
+  
+  margin-top:  3px;
 }
 
 /* Individual bars */

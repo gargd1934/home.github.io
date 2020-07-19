@@ -155,8 +155,8 @@ position:relative;
 
 .relative {
   position: relative;
-  width: 1000px;
-  height: 550px;
+  width: 80%;
+  height: 600px;
   margin: auto;
   top: 50px;
   border: 2px solid #F0F000;
@@ -173,6 +173,37 @@ position:relative;
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
+
+
+/* The bar container */
+.bar-container {
+  width: 15%;
+  background-color:#A6ACAF;
+  margin-left:-185px; 
+  
+  margin-top: 22px;
+}
+
+.bar-container1 {
+  width: 16%;
+  background-color:#A6ACAF;
+  margin-left:900px; 
+  
+  margin-top:  3px;
+}
+
+
+/* Individual bars */
+.bar-10 {width: 60%; height: 5px; background-color: #669900;}
+.bar-9 {width: 60%; height: 5px; background-color: #669900;}
+.bar-8 {width: 70%; height: 5px; background-color: #239B56;}
+.bar-7 {width: 68%; height: 5px; background-color: #669900;}
+.bar-6 {width: 70%; height: 5px; background-color: #239B56;}
+.bar-5 {width: 50%; height: 5px; background-color: #ff9900;}
+.bar-4 {width: 40%; height: 5px; background-color: #cc3300;}
+.bar-3 {width: 60%; height: 5px; background-color: #669900;}
+.bar-2 {width: 70%; height: 5px; background-color: #239B56;}
+.bar-1 {width: 85%; height: 5px; background-color: #239B56;}
 
 
 .footer {

@@ -9,7 +9,7 @@
   background-color:#696969;
 }
 
-
+.btn-nav1{border: 2px solid #F0F000;padding: 5px;}
 
 #hero {
   width: 100%;
@@ -91,106 +91,73 @@
 #hero .carousel-inner .carousel-item-prev,
 #hero .carousel-inner .active.carousel-item-left,
 #hero .carousel-inner .active.carousel-item-right {
-  left: 0;
-  transform: translate3d(0, 0, 0);
-}
+  left: 0; transform: translate3d(0, 0, 0);}
 
-#hero .carousel-control-prev, #hero .carousel-control-next {
-  width: 10%;
-}
+#hero .carousel-control-prev, #hero .carousel-control-next {width: 10%;}
 
 #hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 48px;
-  line-height: 1;
-  width: auto;
-  height: auto;
+  background: none; font-size: 48px; line-height:1; width: auto; height: auto;}
+
+#hero .carousel-indicators li {cursor: pointer;}
+
+#hero .btn-get-started {font-family: "Raleway", sans-serif; font-weight: 500;
+  font-size: 14px; letter-spacing: 1px; display: inline-block; padding: 12px 32px;
+  border-radius: 5px; transition: 0.5s; line-height: 1; margin: 10px; color: #fff;
+  -webkit-animation-delay: 0.8s; animation-delay: 0.8s; border: 0; background: #428bca;
 }
 
-#hero .carousel-indicators li {
-  cursor: pointer;
-}
+#hero .btn-get-started:hover {background: #1c5c93;}
 
-#hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 5px;
-  transition: 0.5s;
-  line-height: 1;
-  margin: 10px;
-  color: #fff;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  border: 0;
-  background: #428bca;
-}
+.find{font-family:Times New Roman; font-size:70px;}
 
-#hero .btn-get-started:hover {
-  background: #1c5c93;
-}
+.finds{font-size:25px;}
 
+.intro{font-size:70px; font-family:Times New Roman; margin-top:90px;}
 
+.app{font-size:25px; font-family:arial;}
 
+.pro{margin-left:1020px; margin-top:-270px;width:300px;}
 
+.btn{background-color:#F0F000; position:relative; margin-top:-400px; margin-left:200px;}
 
+.tops{font-size:70px; font-family:Times New Roman; margin:auto; text-align:center;}
 
+.relative {position: relative; width: 80%; height: 600px; margin: auto; top: 50px;
+  border: 2px solid #F0F000;} 
 
+.rating{margin-left: 620px; font-size: 13px;}
 
-.btn
-{
-background-color:#F0F000;
-position:relative;
+.rate{margin-left: 900px;font-size: 13px;margin-top:-27px;}
 
-}
+.num{margin-left: 90px; color: #B7950B;}
 
+.digit{color: #B7950B;margin-left: 60px;}
 
+.digi{color: #B7950B;margin-left: 40px;}
 
+.per{margin-left: 620px;font-size:26px;color:#737373;}
 
+.img {border-radius: 4px; padding: 5px;width:120px; height:130px; margin-top:-250px;
+ margin-left:0px; }
 
+.img:hover {box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}
 
+.imgs{margin-left:-500px;}
 
-.relative {
-  position: relative;
-  width: 80%;
-  height: 600px;
-  margin: auto;
-  top: 50px;
-  border: 2px solid #F0F000;
-} 
+.image{margin-left:40px; margin-top:-680px; width:500px; height:280px;}
 
-.img {
-  
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-   
-}
-.img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
+.ab{margin-left: 600px; margin-top:50px; font-size: 30px; font-family:sans-serif;}
 
+.para{margin-left: 600px; margin-top:0px; font-size: 20px;color:gray;
+  font-family:sans-serif;}
 
+.food{margin-left: 610px; color: gray;font-size: 20px;}
 
 /* The bar container */
-.bar-container {
-  width: 15%;
-  background-color:#A6ACAF;
-  margin-left:-185px; 
-  
-  margin-top: 22px;
-}
+.bar-container {width: 15%; background-color:#A6ACAF; margin-left:-185px; 
+ margin-top: 22px;}
 
-.bar-container1 {
-  width: 16%;
-  background-color:#A6ACAF;
-  margin-left:900px; 
-  
-  margin-top:  3px;
-}
+.bar-container1 {width:16%;background-color:#A6ACAF; margin-left:900px; margin-top:3px;}
 
 
 /* Individual bars */
@@ -206,64 +173,422 @@ position:relative;
 .bar-1 {width: 85%; height: 5px; background-color: #239B56;}
 
 
-.footer {
+.work{font-size:70px; font-family:Times New Roman; text-align:center; 
+  margin-top:100px; position:relative;}
 
- background-color: #F0F000;
-  margin: 0px auto;
-  padding: 20px 0px 20px 0px;
-  position:static;
-}
+ .parap{font-size:27px; font-family:arial; color:#000000; text-align:center; 
+ margin-top:30px; position:relative;} 
+
+.based{font-size:27px; font-family:arial; color:gray; text-align:center;}
+
+.issue{height:400px; width:100%;margin-right: auto;margin-left: auto;}
+
+.solving{font-size:60px; font-family:Times New Roman; color:white; 
+text-align:center; margin:-290px 0px 0px 0px;}
+
+.help{font-size:25px; font-family:arial; color:#F0F000; text-align:center;}
+
+.offer{margin:300px 0px 0px -120px; font-size:60px; font-family:Times New Roman; 
+color:#000000; margin-left:12px;}
+
+.looking{font-size:27px; font-family:arial; color:#000000; margin:10px 0px 0px -120px; 
+  margin-left:12.5px;}
+
+.raimg{}
+
+.custo{margin:-350px 0px 0px 650px; color:#F0F000;} 
+
+.customer{font-size:70px; font-family:Times New Roman; text-align:center;}
+
+.custimage{} 
+
+.foot{margin-left: 750px;}
+
+.footer {background-color: #F0F000;margin:0px auto; padding:20px 0px 20px 0px;
+  position:static;}
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .navbar-dark{}
-  #body{
-    width: 100%;
-  }
-  .footer {
 
- background-color: #F0F000;
-  margin: 0px auto;
-  padding: 30px 0px 0px 15px;
-  position:relative; 
-   font-size: 18px;
-   width: 100%;
 
-}
-.item-link{
-  margin-left:-250px;
-  font-size: px;
-}
- .fa{font-size: px;}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
 
- .relative{
- position: relative;
-  width: 500px;
-  height: 400px;
-  margin: auto;
-  top: 5px;
-  border: 2px solid #F0F000;
- 
- }
- .images{width:50px;}
-
-.img {
+@media (min-width: 1281px) {
   
-  border-radius: 2px;
-  padding: 5px;
-  width: 50px;
-} 
+  //CSS
+  
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {.navbar-dark{}} 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {.navbar-dark{}} 
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {.navbar-dark{}} 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
 
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  .relative {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  margin: center;
+  top: 50px;
+  border: 2px solid #F0F000;
+}
+.pro{margin-left:910px; margin-top:-270px;width:300px;} 
+#hero {
+  width: 100%;
+  height: calc(100vh - 114px);
+  padding: 0;
+  overflow: hidden;
+}
+.rating{margin-left: 620px; font-size: 13px;}
+.bar-container {width: 16%; background-color:#A6ACAF; margin-left:-185px; 
+ margin-top: 22px;}
+.btn{background-color:#F0F000; position:relative; margin-top:-400px; margin-left:80px;}
+.image{margin-left:40px; margin-top:-680px; width:500px; height:280px;}
+.custo{margin:-350px 0px 0px 650px; color:#F0F000;width:40%;} 
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .find{font-family:Times New Roman; font-size:50px;}
+
+.finds{font-size:23px;}
+  .intro{font-size:45px; font-family:Times New Roman; margin-top:90px;}
+  .app{font-size:20px; font-family:arial;}
+  .tops{font-size:50px; font-family:Times New Roman; margin:auto; text-align:center;}
+   
+   .relative {
+  position: relative;
+  width: 90%;
+  height: 50%;
+  margin: auto;
+  top: 50px;
+  border: 2px solid #F0F000;
+  align-self: center;
+}
+.ab{margin-left: 600px; margin-top:50px; font-size: 22px; font-family:sans-serif;}
+.num{margin-left:30px;color: #B7950B;}
+.digit{color: #B7950B;margin-left: 10px;}
+
+.digi{color: #B7950B;margin-left: 10px;}
+
+.per{margin-left: 360px;font-size: 18px;}
+
+.img {border-radius: 4px; padding: 5px;width:50px; height:60px; margin-top:-340px;
+ margin-left:0px; }
+
+.img:hover {box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}
+
+.imgs{margin-left:-220px;}
+
+.image{margin-left:40px; margin-top:-650px; width:220px; height:230px;}
+
+.ab{margin-left: 340px; margin-top:50px; font-family:sans-serif;}
+
+.para{margin-left: 330px; margin-top:0px; font-size: 12px;color:gray;
+  font-family:sans-serif;}
+
+.food{margin-left: 340px; color: gray;font-size: 14px;}
+
+/* The bar container */
+.bar-container {width: 14%; background-color:#A6ACAF; margin-left:-100px; 
+ margin-top: 22px;}
+
+.bar-container1 {width:16%;background-color:#A6ACAF; margin-left:550px; margin-top:3px;}
+
+
+/* Individual bars */
+.bar-10 {width: 60%; height: 5px; background-color: #669900;}
+.bar-9 {width: 60%; height: 5px; background-color: #669900;}
+.bar-8 {width: 70%; height: 5px; background-color: #239B56;}
+.bar-7 {width: 68%; height: 5px; background-color: #669900;}
+.bar-6 {width: 70%; height: 5px; background-color: #239B56;}
+.bar-5 {width: 50%; height: 5px; background-color: #ff9900;}
+.bar-4 {width: 40%; height: 5px; background-color: #cc3300;}
+.bar-3 {width: 60%; height: 5px; background-color: #669900;}
+.bar-2 {width: 70%; height: 5px; background-color: #239B56;}
+.bar-1 {width: 85%; height: 5px; background-color: #239B56;}
+
+.pro{margin-left:600px; margin-top:-230px;width:120px;} 
+#hero {
+  width: 100%;
+  height: calc(100vh - 114px);
+  padding: 0;
+  overflow: hidden;
+}
+.rating{margin-left: 360px; font-size: 10px;}
+.rate{margin-left: 550px;font-size: 10px;margin-top:-27px;}
+.btn{background-color:#F0F000; position:relative; margin-top:-200px; margin-left:40px;}
+
+.work{font-size:50px; font-family:Times New Roman; text-align:center; 
+  margin-top:100px; position:relative;}
+
+ .parap{font-size:24px; font-family:arial; color:#000000; text-align:center; 
+ margin-top:30px; position:relative;} 
+
+.based{font-size:24px; font-family:arial; color:gray; text-align:center;}
+
+.issue{height:400px; width:100%;margin-right: auto;margin-left: auto;}
+
+.solving{font-size:50px; font-family:Times New Roman; color:white; 
+text-align:center; margin:-300px 0px 0px 0px;}
+
+.help{font-size:23px; font-family:arial; color:#F0F000; text-align:center;}
+
+.offer{margin:300px 0px 0px -120px; font-size:45px; font-family:Times New Roman; 
+color:#000000; margin-left:12px;}
+
+.looking{font-size:21px; font-family:arial; color:#000000; margin:10px 0px 0px -120px; 
+  margin-left:12.5px;}
+.raimg{width: 55%;}
+.custo{margin:-350px 0px 0px 480px; color:#F0F000;width: 28%;} 
+
+.customer{font-size:50px; font-family:Times New Roman; text-align:center;}
+.custimage{width: 60%;} 
+
+.foot{margin-left: 630px;}
+
+.footer {background-color: #F0F000;margin:0px auto; padding:20px 0px 20px 0px;
+  position:static;}
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .find{font-family:Times New Roman; font-size:55px;}
+
+.finds{font-size:23px;}
+  .intro{font-size:55px; font-family:Times New Roman; margin-top:90px;}
+  .app{font-size:23px; font-family:arial;}
+  .tops{font-size:55px; font-family:Times New Roman; margin:auto; text-align:center;}
+   
+   .relative {
+  position: relative;
+  width: 90%;
+  height: 50%;
+  margin: auto;
+  top: 50px;
+  border: 2px solid #F0F000;
+  align-self: center;
+}
+.ab{margin-left: 600px; margin-top:50px; font-size: 28px; font-family:sans-serif;}
+.num{margin-left:80px;color: #B7950B;}
+.digit{color: #B7950B;margin-left: 65px;}
+
+.digi{color: #B7950B;margin-left: 55px;}
+
+.per{margin-left: 370px;font-size: 23px;}
+
+.img {border-radius: 4px; padding: 5px;width:60px; height:70px; margin-top:-370px;
+ margin-left:0px; }
+
+.img:hover {box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}
+
+.imgs{margin-left:-260px;}
+
+.image{margin-left:40px; margin-top:-700px; width:250px; height:230px;}
+
+.ab{margin-left: 340px; margin-top:50px; font-family:sans-serif;}
+
+.para{margin-left: 330px; margin-top:0px; font-size: 18px;color:gray;
+  font-family:sans-serif;}
+
+.food{margin-left: 360px; color: gray;font-size: 20px;}
+
+/* The bar container */
+.bar-container {width: 18%; background-color:#A6ACAF; margin-left:-170px; 
+ margin-top: 20px;}
+
+.bar-container1 {width:22%;background-color:#A6ACAF; margin-left:600px; margin-top:0px;}
+
+
+/* Individual bars */
+.bar-10 {width: 60%; height: 5px; background-color: #669900;}
+.bar-9 {width: 60%; height: 5px; background-color: #669900;}
+.bar-8 {width: 70%; height: 5px; background-color: #239B56;}
+.bar-7 {width: 68%; height: 5px; background-color: #669900;}
+.bar-6 {width: 70%; height: 5px; background-color: #239B56;}
+.bar-5 {width: 50%; height: 5px; background-color: #ff9900;}
+.bar-4 {width: 40%; height: 5px; background-color: #cc3300;}
+.bar-3 {width: 60%; height: 5px; background-color: #669900;}
+.bar-2 {width: 70%; height: 5px; background-color: #239B56;}
+.bar-1 {width: 85%; height: 5px; background-color: #239B56;}
+
+.pro{margin-left:750px; margin-top:-230px;width:120px;} 
+#hero {
+  width: 100%;
+  height: calc(100vh - 114px);
+  padding: 0;
+  overflow: hidden;
+}
+.rating{margin-left: 370px; font-size: 12px;}
+.rate{margin-left: 600px;font-size: 12px;margin-top:-20px;}
+.btn{background-color:#F0F000; position:relative; margin-top:-180px; margin-left:40px;}
+
+.work{font-size:55px; font-family:Times New Roman; text-align:center; 
+  margin-top:100px; position:relative;}
+
+ .parap{font-size:26px; font-family:arial; color:#000000; text-align:center; 
+ margin-top:30px; position:relative;} 
+
+.based{font-size:26px; font-family:arial; color:gray; text-align:center;}
+
+.issue{height:400px; width:100%;margin-right: auto;margin-left: auto;}
+
+.solving{font-size:50px; font-family:Times New Roman; color:white; 
+text-align:center; margin:-300px 0px 0px 0px;}
+
+.help{font-size:25px; font-family:arial; color:#F0F000; text-align:center;}
+
+.offer{margin:300px 0px 0px -120px; font-size:55px; font-family:Times New Roman; 
+color:#000000; margin-left:12px;}
+
+.looking{font-size:24px; font-family:arial; color:#000000; margin:10px 0px 0px -120px; 
+  margin-left:12.5px;}
+.raimg{width: 55%;}
+.custo{margin:-250px 0px 0px 550px; color:#F0F000;width: 32%;} 
+
+.customer{font-size:55px; font-family:Times New Roman; text-align:center;}
+.custimage{width: 70%;} 
+
+.foot{margin-left: 600px;}
+
+.footer {background-color: #F0F000;margin:0px auto; padding:20px 0px 20px 0px;
+  position:static;}
+
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+
+  .find{font-family:Times New Roman; font-size:28px;}
+
+.finds{font-size:14px;}
+  .intro{font-size:28px; font-family:Times New Roman; margin-top:90px;}
+  .app{font-size:13px; font-family:arial;}
+  .tops{font-size:28px; font-family:Times New Roman; margin:auto; text-align:center;}
+   
+   .relative {
+  position: relative;
+  width: 90%;
+  height: 50%;
+  margin: auto;
+  top: 50px;
+  border: 2px solid #F0F000;
+  align-self: center;
+}
+.ab{margin-left: 600px; margin-top:50px; font-size: 12px; font-family:sans-serif;}
+.num{margin-left:10px;color: #B7950B;font-size: 6px;}
+.digit{color: #B7950B;margin-left: 6px;}
+
+.digi{color: #B7950B;margin-left: 6px;}
+
+.per{margin-left: 220px;font-size: 12px;}
+
+.img {border-radius: 4px; padding: 5px;width:25px; height:40px; margin-top:-500px;
+ margin-left:-5px; }
+
+.img:hover {box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}
+
+.imgs{margin-left:-115px;}
+
+.image{margin-left:40px; margin-top:-680px; width:110px; height:120px;}
+
+.ab{margin-left: 200px; margin-top:50px; font-family:sans-serif;}
+
+.para{margin-left: 190px; margin-top:0px; font-size: 8px;color:gray;
+  font-family:sans-serif;}
+
+.food{margin-left: 220px; color: gray;font-size: 10px;}
+
+/* The bar container */
+.bar-container {width: 12%; background-color:#A6ACAF; margin-left:-55px; 
+ margin-top: 20px;}
+
+.bar-container1 {width:16%;background-color:#A6ACAF; margin-left:330px; margin-top:2px;}
+
+
+/* Individual bars */
+.bar-10 {width: 60%; height: 2px; background-color: #669900;}
+.bar-9 {width: 60%; height: 2px; background-color: #669900;}
+.bar-8 {width: 70%; height: 2px; background-color: #239B56;}
+.bar-7 {width: 68%; height: 2px; background-color: #669900;}
+.bar-6 {width: 70%; height: 2px; background-color: #239B56;}
+.bar-5 {width: 50%; height: 2px; background-color: #ff9900;}
+.bar-4 {width: 40%; height: 2px; background-color: #cc3300;}
+.bar-3 {width: 60%; height: 2px; background-color: #669900;}
+.bar-2 {width: 70%; height: 2px; background-color: #239B56;}
+.bar-1 {width: 85%; height: 2px; background-color: #239B56;}
+
+.pro{margin-left:380px; margin-top:-160px;width:80px;} 
+#hero {
+  width: 100%;
+  height: calc(100vh - 114px);
+  padding: 0;
+  overflow: hidden;
+}
+.rating{margin-left: 230px; font-size: 6px;margin-top: 10px;}
+.rate{margin-left: 330px;font-size: 6px;margin-top:-13px;}
+.btn{background-color:#F0F000; position:relative; margin-top:-200px; margin-left:18px;font-size: 8px;}
+
+.work{font-size:28px; font-family:Times New Roman; text-align:center; 
+  margin-top:100px; position:relative;}
+
+ .parap{font-size:14px; font-family:arial; color:#000000; text-align:center; 
+ margin-top:30px; position:relative;} 
+
+.based{font-size:16px; font-family:arial; color:gray; text-align:center;}
+
+.issue{height:400px; width:100%;margin-right: auto;margin-left: auto;}
+
+.solving{font-size:24px; font-family:Times New Roman; color:white; 
+text-align:center; margin:-300px 0px 0px 0px;}
+
+.help{font-size:13px; font-family:arial; color:#F0F000; text-align:center;}
+
+.offer{margin:300px 0px 0px -120px; font-size:28px; font-family:Times New Roman; 
+color:#000000; margin-left:12px;}
+
+.looking{font-size:13px; font-family:arial; color:#000000; margin:10px 0px 0px -120px; 
+  margin-left:12.5px;}
+.raimg{width: 55%;}
+.custo{margin:-180px 0px 0px 320px; color:#F0F000;width: 28%;} 
+
+.customer{font-size:28px; font-family:Times New Roman; text-align:center;}
+.custimage{width: 60%;} 
+
+.foot{margin-left: 180px;}
+
+.footer {background-color: #F0F000;margin:0px auto; padding:20px 0px 20px 20px;
+  position:static;}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
+}

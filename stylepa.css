@@ -49,9 +49,6 @@ input[type=text]:focus, input[type=email]:focus, input[type=number]:focus, input
 
 .faq{font-size:60px; font-family:Times New Roman;}
 
-.faq {    /* creates the default color as black */
-     color: #000000;
-}
 .faq:hover {  /* changes the color of the text to blue on mouseover */
      color: #000080;
 }

@@ -118,12 +118,15 @@
 
 .pro{margin-left:1020px; margin-top:-270px;width:300px;}
 
-.btn{background-color:#F0F000; position:relative; margin-top:-400px; margin-left:200px;}
+.btn{background-color:#F0F000; position:relative; margin-top:-400px; margin-left:200px; }
+.btn:hover{background-color:  #228B22;color:white;}
 
 .tops{font-size:70px; font-family:Times New Roman; margin:auto; text-align:center;}
+.tops:hover{color:red;}
 
 .relative {position: relative; width: 80%; height: 600px; margin: auto; top: 50px;
   border: 2px solid #F0F000;} 
+.relative:hover{border-color: maroon;}
 
 .rating{margin-left: 620px; font-size: 13px;}
 
@@ -147,9 +150,11 @@
 .image{margin-left:40px; margin-top:-680px; width:500px; height:280px;}
 
 .ab{margin-left: 600px; margin-top:50px; font-size: 30px; font-family:sans-serif;}
+.ab:hover{color:    #0000ff;}
 
 .para{margin-left: 600px; margin-top:0px; font-size: 20px;color:gray;
   font-family:sans-serif;}
+.para:hover{color:red;}
 
 .food{margin-left: 610px; color: gray;font-size: 20px;}
 
@@ -158,6 +163,46 @@
  margin-top: 22px;}
 
 .bar-container1 {width:16%;background-color:#A6ACAF; margin-left:900px; margin-top:3px;}
+
+
+
+.carousel
+{
+background:brown;
+
+}
+
+.carousel-caption{
+  background-color:;
+  margin-left: 220px;
+  margin-top: 0px;
+}
+
+.carousel-item
+{
+height:300px;
+
+}
+
+.carousel-item img{
+position:absolute;
+top:0;
+left:0;
+min-height:300px;s
+}
+
+#carouselButton
+{
+right: 0px;
+position: absolute;
+bottom: 0px;
+z-index: 1;
+}
+
+
+
+
+
 
 
 /* Individual bars */
@@ -204,7 +249,7 @@ color:#000000; margin-left:12px;}
 
 .foot{margin-left: 750px;}
 
-.footer {background-color: #F0F000;margin:0px auto; padding:20px 0px 20px 0px;
+.footer {background-color: #F0F000;margin:0px auto; padding:20px 0px 10px 30px;
   position:static;}
 
 

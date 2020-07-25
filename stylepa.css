@@ -49,10 +49,10 @@ input[type=text]:focus, input[type=email]:focus, input[type=number]:focus, input
 
 .faq{font-size:60px; font-family:Times New Roman;}
 
-h1.faq {    /* creates the default color as black */
+.faq {    /* creates the default color as black */
      color: #000000;
 }
-h1.faq:hover {  /* changes the color of the text to blue on mouseover */
+.faq:hover {  /* changes the color of the text to blue on mouseover */
      color: #000080;
 }
 
@@ -67,7 +67,7 @@ margin-left:30px;margin-top:auto;}
 .solid2{width: 90%;padding:5%;border: 4px solid #F0F000;margin-top:auto;
 margin-left:40px; margin-right:auto;}
 
-div.solid2:hover {  /* changes the color of the text to blue on mouseover */
+.solid2:hover {  /* changes the color of the text to blue on mouseover */
      border-color: #000080;
      color:#800000;
 }
@@ -75,7 +75,7 @@ div.solid2:hover {  /* changes the color of the text to blue on mouseover */
 .solid3{width: 125%;padding: 5%;border: 4px solid #F0F000;
 margin-left:30px;margin-top:-50px;}
 
-div.solid3:hover {  /* changes the color of the text to blue on mouseover */
+.solid3:hover {  /* changes the color of the text to blue on mouseover */
      color: #800000;
      border-color: #000080;
 }
@@ -83,7 +83,7 @@ div.solid3:hover {  /* changes the color of the text to blue on mouseover */
 .solid4{width: 90%;padding: 5%;border: 4px solid #F0F000;margin-top:40px;
 margin-left:40px; margin-right:auto;}
 
-div.solid4:hover {  /* changes the color of the text to blue on mouseover */
+.solid4:hover {  /* changes the color of the text to blue on mouseover */
      color: #800000;
      border-color: #000080;
 }
@@ -91,7 +91,7 @@ div.solid4:hover {  /* changes the color of the text to blue on mouseover */
 .solid5{width: 125%;padding: 5%;border: 4px solid #F0F000;
 margin-left:30px;margin-top:-70px;}
 
-div.solid5:hover {  /* changes the color of the text to blue on mouseover */
+.solid5:hover {  /* changes the color of the text to blue on mouseover */
      color: #800000;
      border-color: #000080;
 }
@@ -99,7 +99,7 @@ div.solid5:hover {  /* changes the color of the text to blue on mouseover */
 .solid6{width: 90%;padding: 5%;border: 4px solid #F0F000;margin-top:40px;
 margin-left:40px; margin-right:auto;}
 
-div.solid6:hover {  /* changes the color of the text to blue on mouseover */
+.solid6:hover {  /* changes the color of the text to blue on mouseover */
      color: #800000;
      border-color: #000080;
 }

@@ -53,6 +53,8 @@ left: 0px;
 	border-color: #F0F000;
 	margin-left: 35px;
 }
+.btn:hover{background-color:#228B22;
+color:white;}
 
 .b{
 	width: 100%; 
@@ -60,6 +62,12 @@ left: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.examples{
+	font-size: 60px;
+	font-family: Ubuntu;
+}
+.examples:hover{color:#0000ff;}
 
 .reception{
 	width: 300px;
@@ -92,11 +100,13 @@ left: 0px;
 .ac{
 	font-size: 60px;
 }
+.ac:hover{color: #0000ff;}
 
 .ab{
 	font-size: 20px;
 	text-indent: 3px;
 }
+.ab:hover{color:red;}
 
 .k{
 	margin-left:-60px;
@@ -141,99 +151,7 @@ left: 0px;
 
 @media (min-width: 1281px)   {
   
-  .nav-item{font-size: 20px;}
-  
-  .logo{height:30px; width:160px; margin-left: -50px;}
-  .example{
-font-size: 70px; 
-font-family: Ubuntu; 
-margin-left: 30px;
-margin-top: 100px;}
-
-
-.abc{
-	font-size: 25px; 
-	color: black; 
-	margin-left: 35px;
-}
-  .link{ margin-left:0px;}
-  .imgs{width: 100%; margin-top: 80px; height: 90%;}
-  .examples{font-size: 70px;margin-top: 50px;}
-  .b{
-	width: 100%; 
-	height: 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-.reception{
-	width: 300px; margin-left: 50px;margin-top: 50px;
-}
-
-.heading{
-	font-size: 70px; 
-	font-family: Ubuntu;
-	margin-left: 80px;
-	margin-top: 50px;
-}
-
-.p{
-	font-size: 25px; 
-	color: black; 
-	margin-left: 80px;
-}
-
-.responsive{
-	width: 100px;
-	height: 100px;
-}
-
-.ac{
-	font-size: 50px;
-}
-
-.ab{
-	font-size: 18px;
-	text-indent: 3px;
-	margin-left: -30px;
-	margin-top: -10px;
-}
-
-.k{
-	margin-left:-60px;
-}
-
-.l{
-	margin-left: 60px;
-}
-
-.m{
-	margin-left:-60px;
-}
-
-.n{
-	margin-left: 60px;
-}
-
-.o{
-	margin-left:-60px;
-}
-
-.foot{
-	margin-bottom:10px; 
-	font-size: 22px;
-}
-
-.link{
-	color: black;
-}
-
-.fp{
-	font-size: 18px;
-}
-
-  .c{margin-left: 750px; font-size:22px;}
-  .fp{font-size: 22px;}
-}
+  }
 
 /* 
   ##Device = Laptops, Desktops

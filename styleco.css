@@ -25,12 +25,14 @@ width: 800px;
   font-family: Ubuntu;
   margin-left:-430px;
 }
+.x:hover{color:red;}
 
 .y{
   width: 70%; height:500px;padding: 5%;border: 4px solid #F0F000;
   background-color: #FFFFFF; margin-left: -500px;
   margin-top: 20px;
 }
+.y:hover{border-color: #000080;}
 
 .name{margin-left:-10px;}
 
@@ -43,11 +45,14 @@ width: 800px;
 .name2{margin-left:-10px;}
 .z{margin: 0px 0px 2px -10px; height: 100px;}
 .btn{background-color: #F0F000; color: black; padding:5px; border-color: #F0F000;}
+.btn:hover{color: white;background-color: #228B22;}
 
 .q{color: grey;}
 .get{font-size: 60px; font-family: Ubuntu; margin-top: 100px; margin-left: 120px;}
+.get:hover{color:red;}
 
 .gets{width: 100%; height:400px;padding: 5%;border: 4px solid #F0F000;background-color: #FFFFFF; margin-top: 30px;}
+.gets:hover{border-color: #000080;}
 .i1{font-size: 25px; color: #000000;}
 input[type=text], input[type=email], input[type=name], input[type=address]{
   
@@ -71,9 +76,11 @@ input[type=text]:focus, input[type=email]:focus, input[type=name]:focus, input[t
   .icon{color: blue;}
 
   .follow{font-size: 60px; font-family: Ubuntu; margin-top: 100px; margin-left: 25px;}
+.follow:hover{color:red;}
 
   .border1{width: 150%; height:250px;padding: 5%;border: 4px solid #F0F000;background-color: #FFFFFF; margin-top: 30px;margin-left: 20px;}
-       
+   .border1:hover{border-color: #000080;} 
+
 .heading{margin-bottom:10px; font-size: 22px;}
 
 .para{font-size: 18px;}

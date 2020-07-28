@@ -47,14 +47,105 @@ left: 0px;
 	margin-left: 950px; font-size:15px;
 }
 
-.btn{
-	background-color: #F0F000; 
-	color: black;
-	border-color: #F0F000;
-	margin-left: 35px;
+
+/* Container box to set the sides relative to */
+.cube {
+  width: 150px;
+  height: 50px;
+
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
-.btn:hover{background-color:#228B22;
-color:white;}
+/* The two faces of the cube */
+.default-state,
+.active-state {
+  height: 50px;
+}
+/* Position the faces */
+.default-state {
+  -webkit-transform: translateZ(0px);
+  -moz-transform: translateZ(0px);
+  -o-transform: translateZ(0px);
+  -ms-transform: translateZ(0px);
+  transform: translateZ(0px);
+}
+.flip-to-top .active-state {
+  -webkit-transform: rotateX(90deg) translateZ(150px);
+  -moz-transform: rotateX(90deg) translateZ(150px);
+  -o-transform: rotateX(90deg) translateZ(150px);
+  -ms-transform: rotateX(90deg) translateZ(150px);
+  transform: rotateX(90deg) translateZ(150px);
+}
+.flip-to-bottom .active-state {
+  -webkit-transform: rotateX(-90deg) translateZ(0px);
+  -moz-transform: rotateX(-90deg) translateZ(0px);
+  -o-transform: rotateX(-90deg) translateZ(0px);
+  -ms-transform: rotateX(-90deg) translateZ(0px);
+  transform: rotateX(-90deg) translateZ(0px);
+}
+/* Rotate the cube */
+.cube.flip-to-top:hover {
+  -webkit-transform: rotateX(-89deg);
+  -moz-transform: rotateX(-89deg);
+  -o-transform: rotateX(-89deg);
+  -ms-transform: rotateX(-89deg);
+  transform: rotateX(-89deg);
+}
+.cube.flip-to-bottom:hover {
+  -webkit-transform: rotateX(89deg);
+  -moz-transform: rotateX(89deg);
+  -o-transform: rotateX(89deg);
+  -ms-transform: rotateX(89deg);
+  transform: rotateX(89deg);
+}
+/* END CORE CSS */
+/* Demo styling */
+
+
+.cube {
+  text-align: center;
+  margin-left:40px;
+}
+.default-state,
+.active-state
+ {
+  background-color: #F0F000;
+  font-size: 16px;
+  text-transform: uppercase;
+  
+  line-height: 50px;
+  -webkit-transition: background 250ms ease;
+  -moz-transition: background 250ms ease;
+  -o-transition: background 250ms ease;
+  transition: background 250ms ease;
+}
+
+.cube:hover .default-state {
+  background: #ffcc00;
+}
+.active-state {
+  background: green;
+  color:white;
+}
+#flipto {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+  color: #ccc;
+}
+
+
+
+
+
 
 .b{
 	width: 100%; 
@@ -90,6 +181,10 @@ color:white;}
 	color: black;
 	border-color: black;
 	margin-left: 80px;
+}
+.bt:hover{
+	background-color: green;
+	color:white;
 }
 
 .responsive{

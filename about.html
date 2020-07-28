@@ -25,10 +25,10 @@
        <a class="navbar-brand mr-auto" href="#"><img class="logo" src="logo.png"></img></a>
          <div classs="collapse navbar-collapse" id="Navbar">        
            <ul class="navbar-nav mr-auto">
-            <li class="nav-item "><a class="nav-link" href="index.html"> HOME</a></li>
-            <li class="nav-item "><a class="nav-link" href="partner.html"> PARTNER WITH US</a></li>
+            <li class="nav-item "><a class="nav-link" href="#"> HOME</a></li>
+            <li class="nav-item "><a class="nav-link" href="#"> PARTNER WITH US</a></li>
             <li class="nav-item active"><a class="nav-link" href="#"> ABOUT US</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html"> CONTACT US</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"> CONTACT US</a></li>
         </ul>
      </div></div>
    </nav>
@@ -45,7 +45,17 @@ experience in possible affordable price range. It is an<br>
 end-to-end platform powered with advanced<br>
 technology. The core theme of PROSTAY is to provide<br>
 the best user experience in an easiest way.</p>
-<a type="button" class="btn" href="#">DOWNLOAD OUR APP</a>
+
+<!-- flip-to-top or flip-to-bottom -->
+<div class="cube flip-to-top">
+      <div class="default-state">
+            <span>Download App</span>
+      </div>
+      <div class="active-state">
+          <span>Join Prostay</span>
+    </div>
+</div>
+
         </div>
 
         <div class="col-6">
@@ -124,10 +134,10 @@ customers, PG owners and our team members.
 
 <div class="c">
                     
-                        <a class="link" href="index.html"> HOME</a>&nbsp;
+                        <a class="link" href="#"> HOME</a>&nbsp;
                         <a class="link" href="#"> ABOUT</a>&nbsp;
                         <a class="link" href="#"> SERVICES</a>&nbsp;
-                        <a class="link" href="contact.html"> CONTACT</a>&emsp;&emsp;
+                        <a class="link" href="#"> CONTACT</a>&emsp;&emsp;
                          <i class="fa fa-instagram fa-lg"></i>&nbsp;
                        <i class="fa fa-envelope fa-lg"></i>&nbsp;
                          <i class="fa fa-twitter fa-lg"></i>
@@ -140,8 +150,21 @@ customers, PG owners and our team members.
 <script src="jquery/dist/jquery.slim.min.js"></script>
         <script src="popper.js/dist/umd/popper.min.js"></script>
         <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-
-
+<script>
+$('#flipto').on("click", function(event) {
+  event.preventDefault();
+  
+  var face = $(this).data("face");
+  
+  if ( face == "bottom" ) {
+    $(".cube").removeClass("flip-to-top").addClass("flip-to-bottom");
+    $(this).data("face", "top").text("Flip: to top");
+  } else {
+    $(".cube").removeClass("flip-to-bottom").addClass("flip-to-top");
+    $(this).data("face", "bottom").text("Flip: to bottom");
+  }
+});
+</script>
 
 </body>
 </html>

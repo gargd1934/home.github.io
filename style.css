@@ -216,9 +216,9 @@ ul{
     margin: auto;
   }
 
-
-
-
+  #more {display: none;}
+  #myBtn{background-color: #2F4F4F;color: white;margin-left: 20px;padding: 5px;}
+  #myBtn:hover{background-color: gold;}
 .tops{font-size:70px; font-family:Times New Roman; margin:auto; text-align:center;
   margin-top: 50px;}
 .tops:hover{color:red;}
@@ -427,7 +427,7 @@ color:#000000; margin-left:12px;}
     width: 200px;
     height: 50px;
     
-    margin:-220px 0px 0px 80px;
+    margin:-220px 0px 0px 50px;
     border: none;
     outline: none;
     color:black;
@@ -518,17 +518,17 @@ margin-top: -280px;
 font-size: 20px;
 }
 .top{margin-top: -5px;}
-.para{margin-left: 320px;font-size: 11px;}
+.para{margin-left: 315px;font-size: 9px;}
 
-.rating{margin-left: 320px; font-size: 12px;color: black;}
+.rating{margin-left: 320px; font-size: 10px;color: black;}
 
-.rate{margin-left: 20px;font-size: 12px;}
+.rate{margin-left: 20px;font-size: 10px;}
 
-.num{margin-left: 35px; color: #B7950B;font-size: 12px;}
+.num{margin-left: 28px; color: #B7950B;font-size: 12px;}
 
-.digit{color: #B7950B;margin-left: 24px;font-size: 12px;}
+.digit{color: #B7950B;margin-left: 19px;font-size: 12px;}
 
-.digi{color: #B7950B;margin-left: 3px;font-size: 12px;}
+.digi{color: #B7950B;margin-left: 2px;font-size: 12px;}
 
 .per{margin-left: 60px;font-size:18px;color:  #2F4F4F;margin-top:75px;}
 
@@ -537,10 +537,10 @@ font-size: 20px;
 .food{margin-left: 45px; color:#2F4F4F;font-size: 16px;}
 
 /* The bar container */
-.bar-container {width: 20%; background-color:#A6ACAF; margin-left:320px; 
+.bar-container {width: 18%; background-color:#A6ACAF; margin-left:320px; 
  margin-top: 0px;}
 
-.bar-container1 {width:20%;background-color:#A6ACAF; margin-left:463px; margin-top:0px;}
+.bar-container1 {width:18%;background-color:#A6ACAF; margin-left:443px; margin-top:0px;}
 
 
 
@@ -598,6 +598,17 @@ font-size: 20px;
 }
 
 .foot1{font-size:20px; }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  background-color: #FFD700;
+  color: black;
+  width:520px;
+  margin-left: 620px;
+  margin-top: -350px;
+}
 
 }
 

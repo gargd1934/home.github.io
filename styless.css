@@ -4,44 +4,34 @@ body{
 }
 
 .navbar-dark{
-	background-color: #696969;
+	background-color:#2F4F4F;
 }
 
 .logo{
 	height:30px; 
-	width:200px;
+	width:150px;
 }
 .example{
 font-size: 60px; 
 font-family: Ubuntu; 
 margin-left: 30px;
-margin-top: 100px;}
+margin-top: 30px;}
 
 
 .abc{
 	font-size: 25px; 
 	color: black; 
 	margin-left: 35px;
+	font-family: san-serif;
 }
 
 
 .imgs{
-margin-top: 80px; 
-width: 700px; 
+margin-top: 20px; 
+width: 100%; 
 height: 500px;
 }
 
-
-  .footer {
-   position:relative ;   
-left: 0px;
-   bottom: 0;
-   width: 100%;
-   background-color: #F0F000;
-   color: black;
-   padding:35px;
-   
-}
 
 .c{
 	margin-left: 950px; font-size:15px;
@@ -77,18 +67,18 @@ left: 0px;
   transform: translateZ(0px);
 }
 .flip-to-top .active-state {
-  -webkit-transform: rotateX(90deg) translateZ(150px);
-  -moz-transform: rotateX(90deg) translateZ(150px);
-  -o-transform: rotateX(90deg) translateZ(150px);
-  -ms-transform: rotateX(90deg) translateZ(150px);
-  transform: rotateX(90deg) translateZ(150px);
+  -webkit-transform: rotateX(90deg) translateZ(80px);
+  -moz-transform: rotateX(90deg) translateZ(80px);
+  -o-transform: rotateX(90deg) translateZ(80px);
+  -ms-transform: rotateX(90deg) translateZ(80px);
+  transform: rotateX(90deg) translateZ(80px);
 }
 .flip-to-bottom .active-state {
-  -webkit-transform: rotateX(-90deg) translateZ(0px);
-  -moz-transform: rotateX(-90deg) translateZ(0px);
-  -o-transform: rotateX(-90deg) translateZ(0px);
-  -ms-transform: rotateX(-90deg) translateZ(0px);
-  transform: rotateX(-90deg) translateZ(0px);
+  -webkit-transform: rotateX(0deg) translateZ(0px);
+  -moz-transform: rotateX(0deg) translateZ(0px);
+  -o-transform: rotateX(0deg) translateZ(0px);
+  -ms-transform: rotateX(0deg) translateZ(0px);
+  transform: rotateX(0deg) translateZ(0px);
 }
 /* Rotate the cube */
 .cube.flip-to-top:hover {
@@ -116,7 +106,7 @@ left: 0px;
 .default-state,
 .active-state
  {
-  background-color: #F0F000;
+  background-color:#FFD700;
   font-size: 16px;
   text-transform: uppercase;
   
@@ -161,12 +151,12 @@ left: 0px;
 .examples:hover{color:#0000ff;}
 
 .reception{
-	width: 300px;
+	width: 280px;
 }
 
 .heading{
 	font-size: 60px; 
-	font-family: Ubuntu;
+	font-family: New Times Roman;
 	margin-left: 80px;
 }
 
@@ -174,6 +164,7 @@ left: 0px;
 	font-size: 25px; 
 	color: black; 
 	margin-left: 80px;
+	font-family: san-serif;
 }
 
 .bt{
@@ -223,18 +214,11 @@ left: 0px;
 	margin-left:-60px;
 }
 
-.foot{
-	margin-bottom:10px; 
-	font-size: 22px;
-}
+.foot{margin-left: 750px;}
 
-.link{
-	color: black;
-}
-
-.fp{
-	font-size: 18px;
-}
+.footer {background-color:#FFD700;margin:0px auto; padding:20px 0px 10px 30px;
+  position:static;}
+.foot1{font-size:20px; }
 
 
 

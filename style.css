@@ -1470,11 +1470,13 @@ color:#000000;}
 @media (min-width: 320px) and (max-width: 480px) {
   
   /*.logo{margin-left: 250px;margin-top: -70px;}*/
-.s1{border:0;width:80px; height:80px;}
+ #hero .btn-get-started{width: 120px;font-size: 10px;padding: 10px;}
+  .btn-nav1{width: 50px;font-size: 10px;}
+.s1{border:0;width:60px; height:60px;}
 
-.find{font-family:Times New Roman; font-size:30px;}
+#hero .find{font-family:Times New Roman; font-size:20px;}
 
-.finds{font-size:20px;font-family: san-serif;}
+.finds{font-size:10px;font-family: san-serif;}
 
 .intro{font-size:18px; font-family:Times New Roman; margin-top:25px;}
 
@@ -1492,9 +1494,9 @@ ul{
 
 .slider{
  margin-top: -130px;
- margin-left: 240px;
- width: 80px;
- height: 80px; }
+ margin-left: 260px;
+ width: 60px;
+ height: 60px; }
  
  /*border: 8px solid #FFFFFF;
  border-radius:5px;
@@ -1602,7 +1604,7 @@ ul{
 }
 
 .solid2{
-  margin-top: 430px;margin-left: -165px;
+  margin-top: 430px;margin-left: -185px;
   border:2px solid #FFD700;
   width:230%;
   height: 48%;
@@ -1618,7 +1620,7 @@ ul{
 
 }
 .solid4{
-  margin-top: 380px;margin-left: -165px;
+  margin-top: 380px;margin-left: -185px;
   border:2px solid #FFD700;
   width:230%;
   height: 49%;
@@ -1634,7 +1636,7 @@ ul{
 
 }
 .solid6{
-  margin-top: 390px;margin-left: -165px;
+  margin-top: 390px;margin-left: -185px;
   border:2px solid #FFD700;
   width:230%;
   height:48%;
@@ -1650,7 +1652,7 @@ ul{
 
 }
 .solid8{
-  margin-top: 380px;margin-left: -165px;
+  margin-top: 380px;margin-left: -185px;
   border:2px solid #FFD700;
   width:230%;
   height: 50%;
@@ -1798,7 +1800,7 @@ color:#000000;}
   background-color: #FFD700;
   color: black;
   width:140px;
-  margin-left: 160px;
+  margin-left: 170px;
   margin-top: -130px;
 }
 .co1{margin-left:16px;width:8px;}

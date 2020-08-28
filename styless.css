@@ -27,8 +27,7 @@ a:hover {
 	text-transform: capitalize;
 }
 
-.drop{
-	text-align:center;
+
 }
 .logo{
 	height:30px; 
@@ -828,7 +827,7 @@ height: 200px;
 	margin-left: 120px;
 }
 .example{
-font-size: 60px; 
+font-size: 50px; 
 font-family: New Times Roman; 
 margin-left: 50px;
 margin-top: 300px;
@@ -836,7 +835,7 @@ margin-top: 300px;
 
 
 .abc{
-	font-size: 16px; 
+	font-size: 15px; 
 	color: black; 
 	margin-left: 10px;
 	font-family: san-serif;
@@ -844,7 +843,7 @@ margin-top: 300px;
 
 
 .imgs{
-margin-top: -980px; 
+margin-top: -900px; 
 width: 300px; 
 height: 200px;
 margin-left: 15px;
@@ -963,7 +962,7 @@ margin-left: 15px;
 }
 
 .examples{
-	font-size: 60px;
+	font-size: 50px;
 	font-family: Ubuntu;
 	margin-top: -50px;
 }
@@ -976,14 +975,14 @@ margin-left: 15px;
 }
 
 .heading{
-	font-size: 40px; 
+	font-size: 30px; 
 	font-family: New Times Roman;
 	margin-left: 20px;
 	margin-top: 20px;
 }
 
 .p{
-	font-size: 16px; 
+	font-size: 15px; 
 	color: black; 
 	margin-left: 20px;
 	font-family: san-serif;

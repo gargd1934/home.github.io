@@ -804,7 +804,7 @@ height: 200px;
 .navbar-dark{
 	background-color:#2F4F4F;
 }
-
+.navbody{width: 93%;}
 
 .logo{
 	height:30px; 
@@ -934,6 +934,10 @@ margin-left: 15px;
 }
 
 
+
+
+
+
 .b{
 	width: 100%; 
 	height: 100%;
@@ -1005,6 +1009,28 @@ margin-left: 15px;
 .ab1{margin-left: 100px;}
 .ab2{margin-left: -20px;}
 .ab3{margin-left: -230px;}
+
+.k{
+	margin-left:0px;
+
+}
+
+.l{
+	margin-left: 0px;
+}
+
+.m{
+	margin-left:0px;
+}
+
+.n{
+	margin-left: 0px;
+}
+
+.o{
+	margin-left:0px;
+}
+
 
   .foot{margin-left: 60px;color: white;}
 

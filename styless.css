@@ -7,25 +7,9 @@ body{
 	background-color:#2F4F4F;
 }
 
-.navbody{
-	 border-bottom: 1px solid  #666;
-    width: 100%;
-}
-
-
-.navs a{
-	text-decoration: none;
-	color: white;
-	width:100%;
-}
 
 
 
-.navs{
-	justify-content: space-around;
-	list-style: none;
-	text-transform: capitalize;
-}
 
 
 }
@@ -820,16 +804,11 @@ height: 200px;
 .navbar-dark{
 	background-color:#2F4F4F;
 }
-.navbody{
-	 border-bottom: 1px solid  #666;
-    width: 95%;
-}
 
 
 .logo{
 	height:30px; 
 	width:120px;
-	margin-left: 120px;
 }
 .example{
 font-size: 50px; 
@@ -840,7 +819,7 @@ margin-top: 300px;
 
 
 .abc{
-	font-size: 15px; 
+	font-size: 14px; 
 	color: black; 
 	margin-left: 10px;
 	font-family: san-serif;
@@ -848,7 +827,7 @@ margin-top: 300px;
 
 
 .imgs{
-margin-top: -970px; 
+margin-top: -1000px; 
 width: 300px; 
 height: 200px;
 margin-left: 15px;
@@ -955,10 +934,6 @@ margin-left: 15px;
 }
 
 
-
-
-
-
 .b{
 	width: 100%; 
 	height: 100%;
@@ -987,7 +962,7 @@ margin-left: 15px;
 }
 
 .p{
-	font-size: 15px; 
+	font-size: 14px; 
 	color: black; 
 	margin-left: 20px;
 	font-family: san-serif;
@@ -1030,28 +1005,6 @@ margin-left: 15px;
 .ab1{margin-left: 100px;}
 .ab2{margin-left: -20px;}
 .ab3{margin-left: -230px;}
-
-.k{
-	margin-left:0px;
-
-}
-
-.l{
-	margin-left: 0px;
-}
-
-.m{
-	margin-left:0px;
-}
-
-.n{
-	margin-left: 0px;
-}
-
-.o{
-	margin-left:0px;
-}
-
 
   .foot{margin-left: 60px;color: white;}
 

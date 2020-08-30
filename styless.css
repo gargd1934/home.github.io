@@ -3,7 +3,7 @@ body{
 
 }
 
-.navbar-dark{
+.navbar{
 	background-color:#2F4F4F;
 }
 
@@ -12,7 +12,7 @@ body{
 
 
 
-}
+
 .logo{
 	height:30px; 
 	width:150px;
@@ -902,7 +902,7 @@ margin-left: 15px;
 
 .cube {
   text-align: center;
-  margin-left:10px;
+  margin-left:90px;
 }
 .default-state,
 .active-state
@@ -943,7 +943,7 @@ margin-left: 15px;
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	display: none;
+	
 }
 
 .examples{

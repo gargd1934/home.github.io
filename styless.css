@@ -827,8 +827,8 @@ margin-top: 300px;
 
 
 .imgs{
-margin-top: -1000px; 
-width: 300px; 
+margin-top: -880px; 
+width: 200%; 
 height: 200px;
 margin-left: 15px;
 }
@@ -902,7 +902,7 @@ margin-left: 15px;
 
 .cube {
   text-align: center;
-  margin-left:90px;
+  margin-left:100px;
 }
 .default-state,
 .active-state
